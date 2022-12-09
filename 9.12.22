@@ -1,0 +1,38 @@
+#1
+sum=0
+for i in range(10):
+    num=int(input("Enter the number:"))
+    sum=sum+num
+print(sum)
+
+#3
+n=input("Enter the number:")
+print("The number of digits:",len(n))
+
+#4
+rows = int(input("Enter the no.of rows:"))
+for m in range(0, rows+1):
+    for n in range(rows - m, 0, -1):
+        print(n, end=' ')
+    print()
+#5
+term=int(input("Enter the number of terms:"))
+n1,n2=0,1
+count=0
+if term==1:
+    print("Fibonacci series:",n1)
+else:
+    print("Fibonacci series:")
+    while count<term:
+        print(n1)
+        n=n1+n2
+        n1=n2
+        n2=n
+        count+=1
+
+#6
+n1=int(input("Enter the number:"))
+fact=1
+for i in range(1,n1+1):
+    fact=fact*i
+print("The factorial of the number is:",fact)
