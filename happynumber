@@ -1,0 +1,10 @@
+n1=int(input("Enter a number to check if happy:"))
+while n1!=1:
+    temp=n1
+    while temp > 0:
+        s=0
+        a= temp % 10
+        s=s+a**2
+        temp//= 10
+    n1=s
+print("True")
