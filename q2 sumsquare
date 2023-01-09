@@ -1,0 +1,17 @@
+def sumsquare(lst):
+    global even
+    global odd
+    even=0
+    odd=0
+    for i in lst:
+        if i%2==0:
+            even+=i**2
+        else:
+            odd+=i**2
+    return odd,even
+l=[]
+n=int(input("Enter the number of elements:"))
+for i in range(n):
+    n1=int(input("Enter the element:"))
+    l.append(n1)
+print(list(sumsquare(l)))
