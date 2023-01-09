@@ -1,0 +1,10 @@
+new=int(input("Enter the number of fresh loaves purchased:"))
+old=int(input("Enter the number of day old loaves purchased:"))
+print("Regular price: Rs.185.00")
+pricenew=new*185.00
+f1= "{:.2f}".format(pricenew)
+print("Amount of new loaves:",f1)
+priceold=((60/100)*185.00)*old
+f2= "{:.2f}".format(priceold)
+print("Amount of old loaves:",f2)     
+print("Total amount: Rs.",pricenew+priceold)
