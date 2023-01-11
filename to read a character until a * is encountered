@@ -1,0 +1,18 @@
+n=0
+l=[]
+while n!="*":
+    n=input("Enter any character:")
+    l.append(n)
+upper=0
+lower=0
+num=0
+for i in l:
+    if i.isupper()==True:
+        upper+=1
+    elif i.islower()==True:
+        lower+=1
+    elif i.isdigit()==True:
+        num+=1
+print("Total count of uppercase:",upper)
+print("Total count of lowercase:",lower)
+print("Total count of numbers:",num)
