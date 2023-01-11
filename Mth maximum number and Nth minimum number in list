@@ -1,0 +1,15 @@
+num=int(input("Enter the number of elements to be in the list:"))
+l=[]
+for i in range(num):
+    n1=int(input("Enter the element:"))
+    l.append(n1)
+m=int(input("Enter the m value:"))
+n=int(input("Enter the n value:"))
+minlst=sorted(l)
+maxlst=sorted(l,reverse=True)
+m1=maxlst[m-1]
+n1=minlst[n-1]
+print("M maximum number",m1)
+print("N minmum number",n1)
+print("Sum =",m1+n1)
+print("Difference =",m1-n1)
