@@ -1,0 +1,13 @@
+def simpleinterest(p1,t1,s1):
+    if s1=="y":
+        interest=p1+((12/100)*p1*t1)
+        return interest
+    else:
+        interest=p1+((10/100)*p1*t1)
+        return interest
+
+
+p=int(input("Enter the principle amount:"))
+t=int(input("Enter the number of years"))
+s=input("Is the customer senior citizen(y/n):")
+print("Interest:",simpleinterest(p,t,s))
