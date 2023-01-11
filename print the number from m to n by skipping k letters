@@ -1,0 +1,5 @@
+m=int(input("Enter M value:"))
+n=int(input("Enter N value:"))
+k=int(input("Enter K value:"))
+for i in range(m,n+1,k):
+    print(i,end=",")
