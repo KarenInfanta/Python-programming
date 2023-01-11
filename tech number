@@ -1,0 +1,10 @@
+for n in range(1000,10000):
+    a=str(n)
+    fst=a[:len(a)//2]
+    c=int(fst)
+    last=a[len(a)//2:]
+    b=int(last)
+    if ((c+b)**2)==n:
+        print(n)
+    else:
+        continue
