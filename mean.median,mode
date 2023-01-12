@@ -1,0 +1,9 @@
+import statistics
+n=int(input("Enter the number of elements in list1:"))
+l1=[]
+for i in range(n):
+    n1=int(input("Enter the element:"))
+    l1.append(n1)
+print("Mean",statistics.mean(l1))
+print("Median",statistics.median(l1))
+print("Mode",statistics.mode(l1))
