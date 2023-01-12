@@ -1,0 +1,4 @@
+word=input("Enter the string:")
+lst=word.split()
+length=len(lst[len(lst)-1])
+print(length)
