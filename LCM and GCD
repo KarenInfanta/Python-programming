@@ -23,5 +23,5 @@ def lcm(a,b):
     
 n1=int(input("Enter a "))
 n2=int(input("Enter b"))
-print("gcd:",gcd(n1,n2))
+print("gcd:",gcd1(n1,n2))
 print("lcm:",lcm(n1,n2))
