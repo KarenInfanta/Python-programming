@@ -1,0 +1,13 @@
+n=int(input("Enter the number of elements in list1:"))
+l1=[]
+for i in range(n):
+    n1=int(input("Enter the element:"))
+    l1.append(n1)
+n=int(input("Enter the number of elements in list1:"))
+l2=[]
+for i in range(n):
+    n1=int(input("Enter the element:"))
+    l2.append(n1)
+s=l1+l2
+print(sorted(s))
+    
