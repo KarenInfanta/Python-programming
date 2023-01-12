@@ -1,0 +1,4 @@
+s1=int(input("Enter a sentence:"))
+s=str(s1)
+for i in range(len(s)-1,-1,-1):
+    print(s[i],end="")
