@@ -1,0 +1,18 @@
+v=["a","e","i","o","u"]
+vowel=[]
+c=[]
+n=input("Enter a string:")
+count=0
+for i in n:
+    if i in v:
+        vowel.append(i)        
+    else:
+        c.append(i)
+print("vowels")
+for i in vowel:
+    print(i,end=" ")
+print()
+print("consantants")
+for i in c:
+    print(i,end=" ")
+ 
