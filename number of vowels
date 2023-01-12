@@ -1,0 +1,9 @@
+v=["a","e","i","o","u"]
+n=input("Enter a string:")
+count=0
+for i in n:
+    if i in v:
+        count+=1
+    else:
+        continue
+print("no. of vowels:",count)
