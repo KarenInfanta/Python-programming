@@ -1,0 +1,8 @@
+n=int(input("Enter the number of elements:"))
+l=[]
+for i in range(n):
+    st=input("Enter a word:")
+    l.append(st)
+l.sort()
+print(l)
+    
