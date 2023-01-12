@@ -1,0 +1,5 @@
+total=int(input("Enter the total user:"))
+staff=int(input("Enter the staff user:"))
+nonteach=staff//3
+stud=total-(staff+nonteach)
+print(stud)
