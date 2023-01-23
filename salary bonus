@@ -6,7 +6,7 @@ if g=="a" or g=="A":
     b=(5/100)*s
     print("Bonus:",b)
 elif g=="b" or g=="B":
-    b=(5/100)*s
+    b=(10/100)*s
     print("Bonus:",b)
 else:
     print("Wrong grade")
